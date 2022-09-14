@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+div.fog{
+	box-sizing: border-box;
+	border-radius: 25%;
+	width: 250px;
+	height:250px;
+	background-color:rgb(189, 37, 37);
+	position: relative;
+	
+}
+p{
+	color:red;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+	height:100%;
+	background-color:gray;
+}
