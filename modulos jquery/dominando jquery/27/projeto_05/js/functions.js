@@ -1,9 +1,5 @@
 $(function(){
 	
-		/*
-
-        */
-
         var currentValue = 0;
         var isDrag = false;
         var preco_maximo = 70000;
