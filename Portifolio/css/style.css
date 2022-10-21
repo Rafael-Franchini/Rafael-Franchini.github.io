@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin:0 auto;
+    font-family: 'Baloo 2', cursive;
+}
+body{background-color:rgb(0, 0, 0);}
+
+@media only screen and (min-width:1000px) {
+    .tela1{display: flex;}
+    .faixa{
+        width: 50px;
+        height: 100%;
+        float:right;
+        margin-right: 50px;
+    }
+    .principal{
+        margin-top: 20px;
+        width: 1200px;
+    }
+    .nome_foto{
+        margin:  auto;
+        position: center;
+        width: 90%;
+        height: 400px;
+    }
+    .faixa p{
+        width: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size:30px;
+        rotate:90deg;
+    }
+    .faixa img{
+        display: table;
+        padding: 10px;
+        width: 40px;
+    }
+    .designer .imgd img{
+        margin: 20px;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        border: 3px solid #43bbde;
+        border-radius: 50px;
+        float: right;
+    }
+    .designer .text_d{
+        margin-top: 50px;
+        padding: 30px;
+        float: left;
+        width: 60%;
+    }
+    .designer {
+        margin-top: 20px;
+        display: flex;
+        background-color: aliceblue;
+        height: 440px;
+        width: 70%;
+    }
+    .prog {
+        display: flex;
+        margin-top: 20px;
+        background-color: aliceblue;
+        height: 440px;
+        width: 70%;
+    }
+    .prog .text_p{
+        margin-top: 50px;
+        padding: 30px;
+        float: left;
+        width: 60%;
+    }
+    .prog .imgp img{
+        margin: 20px;
+        width: 85%;
+        height: 400px;
+        background-size: cover;
+        border: 3px solid #43bbde;
+        border-radius: 50px;
+        float: right;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .principal{
+        height: 90%;
+    }
+    .nome_foto{
+        margin: 0 auto;
+        position: center;
+        height: 300px;
+    }
+    .faixa{
+        display: flex;
+        width:100%;
+        border-radius: 50px;
+        height: 50px;
+    }
+    .faixa p{
+        margin-left: -15px;
+        margin-top: 15px;
+        width: 400px;
+        font-size: 19px;
+        text-align: center;
+    }
+    .faixa img{
+        margin-left: 10px;
+        padding: 7.5px;
+        width: 40px;
+    }
+    .designer .imgd img{
+        margin-left: 20px;
+        width: 80%;
+        height: 400px;
+        background-size: cover;
+        border: 3px solid #43bbde;
+        border-radius: 50px;
+    }
+    .designer .text_d{
+        width: 80%;
+    }
+    .designer {
+        background-color: aliceblue;
+        height: 540px;
+        width: 70%;
+        padding: 20px;
+    }
+    .prog {
+        padding: 20px;
+        margin-top: 20px;
+        background-color: aliceblue;
+        height: 640px;
+        width: 70%;
+    }
+    .prog .text_p {
+        width: 80%;
+    }
+    .prog .imgp img{
+        margin-left: 20px;
+        width: 80%;
+        height: 400px;
+        background-size: cover;
+        border: 3px solid #43bbde;
+        border-radius: 50px;
+    }
+}
+    
+.clear{
+    clear: both;
+}
+.tela1{
+    border-radius: 5px;
+    width: 70%;
+    height: 640px;
+    background-color: yellow;
+    margin: 10px auto;
+    z-index: 1;
+}
+.faixa img{
+    transition: 200ms;
+    padding: 7.5px;
+    width: 35px;
+}
+.faixa a{
+    text-decoration: none;
+}
+.faixa{
+    background-color: white;
+}
+.texto_90{
+    color: black;
+}
+.faixa img:hover{
+    padding: 0;
+    width: 50px;
+}
+.nome_foto h1{
+    text-align: center;
+    font-size: 80px;
+}
+.paragrafo{
+    text-align: center;
+    font-size: 25px;
+}
+.designer{
+    color: gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.designer a{color:#43bbde;}
+.prog{
+    border-radius: 5px;
+    color:gray;
+}
+.prog p{ 
+    margin-top: 20px;
+    font-size: 20px;
+    color:gray;
+}
+.designer p{ 
+    margin-top: 20px;
+    font-size: 20px;
+    color:gray;
+}
+.prog a{color:#43bbde;}
+a{text-decoration: none;}
